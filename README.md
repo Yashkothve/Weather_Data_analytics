@@ -27,19 +27,24 @@ You accessed column names using **.columns**.
 You checked data types using **.dtypes**.
 
 **Unique Values and Counts:**
+
 You found unique values in the 'Weather' column using **.unique()**.
 You found the number of unique values in 'Weather' using **.nunique()** and **.count()**.
 You used **.value_counts()** to count occurrences of each unique value.
 
 **Data Filtering:**
+
 You filtered data to find instances when the 'Weather' is 'Clear' using boolean indexing.
 You used **.groupby()** and **.get_group()** to retrieve specific weather conditions.
 
 **Null Values:**
+
 You identified null values using **.isnull()**.**sum()** and checked non-null values with **.notnull().sum()**.
 
-**Renaming Columns:
-**You renamed the 'Weather' column to 'Weather Condition' using **.rename()**.
+**Renaming Columns:**
 
-**Statistical Measures:
-**You calculated the mean, standard deviation, and variance of various columns using **.describe()**, **.mean()**, **.std()**, and **.var()**.
+You renamed the 'Weather' column to 'Weather Condition' using **.rename()**.
+
+**Statistical Measures:**
+
+You calculated the mean, standard deviation, and variance of various columns using **.describe()**, **.mean()**, **.std()**, and **.var()**.
